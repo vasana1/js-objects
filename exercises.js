@@ -18,6 +18,16 @@ A literal object.
  "My dog `name` is `age` year old likes to `speak`."
  */ 
 
+var dog = {
+  name: "Casey",
+  age: 2,
+  vegetarian: false,
+  color: ["white", "red"],
+  speak: function(){
+    return "woof!";
+  }
+}
+console.log(dog.name + " is " + dog.age + " years old and likes to speak " + (dog.speak()));
 
 /*
 An empty object
